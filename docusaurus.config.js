@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "GABRIELA",
+  title: "gabriela",
   tagline: "SOFTWARE DEVELOPMENT",
   favicon: "img/favicon.ico",
 
@@ -83,7 +83,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "docSidebar",
             position: "left",
-            label: "Learning Path",
+            label: "Learning",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -91,14 +91,19 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://www.linkedin.com/in/gabimin/",
+            label: "LinkedIn",
+            position: "right",
+          },
         ],
       },
       footer: {
         style: "dark",
-        
+
         copyright: `Copyright © ${new Date().getFullYear()} - Built with Docusaurus`,
       },
-      
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

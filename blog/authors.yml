@@ -8,7 +8,7 @@ gabriela:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-gabriela-articles'
   socials:
-    x: gabiminok
+   
     linkedin: gabimin
     github: gabimin
     # newsletter: https://thisweekinreact.com

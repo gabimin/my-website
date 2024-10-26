@@ -4,6 +4,13 @@
  * work well for content-centric websites.
  */
 
+.hero__title {
+  color: rgb(250, 201, 41);
+}
+
+.footer__copyright {
+  color:rgb(252, 211, 76);
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary:#008080;
