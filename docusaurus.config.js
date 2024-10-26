@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'gabriela',
-  tagline: 'softare development',
+  title: 'GABRIELA',
+  tagline: 'SOFTWARE DEVELOPMENT',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -43,8 +43,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-          'https://github.com/gabimin',
+          editUrl: 'https://github.com/gabimin/my-website/edit/main/',
         },
         blog: {
           showReadingTime: false,
@@ -76,15 +75,15 @@ const config = {
       navbar: {
         title: 'Home',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Learning Path',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -101,7 +100,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Learning Path',
                 to: '/docs/intro',
               },
             ],
@@ -132,7 +131,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/gabimin',
               },
             ],
           },
