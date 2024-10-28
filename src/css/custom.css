@@ -5,8 +5,13 @@
  */
 
 .hero__title {
-  color: rgb(250, 201, 41);
+  color: rgb(250, 193, 6);
 }
+
+.hero__subtitle {
+  font-weight: bold;
+}
+
 
 .footer__copyright {
   color:rgb(252, 211, 76);

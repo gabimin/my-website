@@ -1,0 +1,18 @@
+.portfolio {
+    padding: 6rem 2rem;
+  }
+  
+  .projectImage {
+    max-width: 90%;
+    height: auto;
+    margin: 5rem 2rem 2rem;
+    border-radius: 8px;
+  }
+  
+  .button--primary {
+    margin-top: 0.5rem;
+    color: white;
+    background-color: #0078e7;
+    margin-bottom: 10rem;
+  }
+  

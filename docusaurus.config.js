@@ -43,7 +43,7 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/gabimin/my-website/edit/main/",
+          // editUrl: "https://github.com/gabimin/my-website/edit/main/",
         },
         blog: {
           showReadingTime: false,
@@ -53,7 +53,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/gabimin/my-website/edit/main/",
+          // editUrl: "https://github.com/gabimin/my-website/edit/main/",
 
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
