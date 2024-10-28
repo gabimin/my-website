@@ -2,8 +2,8 @@
 gabriela:
   name: Gabriela
   title: Web Developer
-  url: 'https://www.qasyst.com'
-  image_url: 'img/logo.png'
+  //url: ''
+  image_url: "https://avatars.githubusercontent.com/u/59121788?s=400&amp;u=bbe02bb027d760a975a45292babf786ffd8aade9&amp;v=4"
   page:
     # customize the url of the author page at /blog/authors/<permalink>
     permalink: '/all-gabriela-articles'

@@ -44,7 +44,7 @@ const ProjectList = [
   image: 'img/proyecto1.svg',
     description: 'jQuery | HTML | CSS',
     link: 'https://gabimin.github.io/TinDog/',
-    buttonText: 'Social Landing'
+    buttonText: 'Social Landing Page'
  },
 
 
@@ -76,7 +76,7 @@ export default function Portfolio() {
   return (
     <section className={styles.portfolio}>
       <div className="container">
-        <h2 className="text--center">Projects</h2>
+        <h2 className="text--center">PROJECTS</h2>
         <div className="row">
           {ProjectList.map((props, idx) => (
             <Project key={idx} {...props} />
