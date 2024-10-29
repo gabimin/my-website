@@ -41,5 +41,6 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+ "homepage": "https://gabimin.github.io/my-website",
 }

@@ -112,3 +112,10 @@ const config = {
 };
 
 export default config;
+module.exports = {
+  url: "https://gabimin.github.io", // URL base del sitio en GitHub Pages
+  baseUrl: "/my-website/", // Debe ser el nombre del repositorio
+  organizationName: "gabimin", // Tu nombre de usuario o de la organización en GitHub
+  projectName: "my-website", // El nombre del repositorio en GitHub
+  // ... otras configuraciones
+};

@@ -3,14 +3,14 @@ name: Deploy Docusaurus site to GitHub Pages
 on:
   push:
     branches:
-      - main # Change this to your default branch if necessary
+      - main # Cambia esto a tu rama principal si es necesario
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install dependencies
         run: npm install
@@ -21,6 +21,4 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          export USE_SSH=true
-          npm run deploy
+        run: npm run deploy
