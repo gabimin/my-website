@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 60vh; /* Ajusta según necesites */
+  min-height: 30vh; /* Ajusta según necesites */
 }
 
 @media screen and (max-width: 996px) {

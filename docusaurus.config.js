@@ -101,7 +101,7 @@ const config = {
       footer: {
         style: "dark",
 
-        copyright: `Copyright © ${new Date().getFullYear()} - Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
 
       prism: {

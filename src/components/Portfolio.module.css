@@ -3,15 +3,16 @@
   }
   
   .projectImage {
-    max-width: 90%;
+    border: 0.2px solid #bdbcbcd0; 
+    max-width: 60%;
     height: auto;
     margin: 5rem 2rem 2rem;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   
   .button--primary {
     margin-top: 0.5rem;
-    color: white;
+    color: rgb(247, 243, 243);
     background-color: #0078e7;
     margin-bottom: 10rem;
   }

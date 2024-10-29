@@ -7,13 +7,13 @@ const ProjectList = [
   {
     title: '',
     image: 'img/public-repos.png',
-    description: '',
+    description: 'GitHub Public Repositories',
     link: 'https://github.com/gabimin?tab=repositories&q=&type=public&language=&sort=',
     buttonText: 'Public Repos' // Texto específico para este botón
   },
 
   {
-    image: 'img/proyecto1.svg',
+    image: 'img/project01_img.png',
     description: 'Boostrap | HTML | CSS',
     link: 'https://gabimin.github.io/BootstrapPage/',
     buttonText: 'Boostrap Page'
@@ -21,7 +21,7 @@ const ProjectList = [
   
 
   {
-    image: 'img/proyecto1.svg',
+    image: 'img/project04_img.png',
     description: 'Mobile First | HTML | CSS',
     link: 'https://gabimin.github.io/ResponsiveDesign/',
     buttonText: 'Mobile First Page'
@@ -29,19 +29,19 @@ const ProjectList = [
 
 
   {
-    image: 'img/proyecto1.svg',
+    image: 'img/project05_img.png',
     description: 'Static | HTML | CSS',
     link: 'https://qasyst.vercel.app/',
     buttonText: 'Landing Page'
   },
 {
-  image: 'img/proyecto1.svg',
+  image: 'img/project03_img.png',
     description: 'Responsive | HTML | CSS',
     link: 'https://gabimin.github.io/css-gallery/',
     buttonText: 'CSS Responsive Gallery'
  },
  {
-  image: 'img/proyecto1.svg',
+  image: 'img/project02_img.png',
     description: 'jQuery | HTML | CSS',
     link: 'https://gabimin.github.io/TinDog/',
     buttonText: 'Social Landing Page'
