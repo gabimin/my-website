@@ -91,7 +91,6 @@ Using GitHub Actions is the preferred way to automate deployments on GitHub Page
              env:
                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
              run: |
-               npm install -g docusaurus
                npm run deploy
      ```
 
