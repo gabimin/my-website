@@ -25,14 +25,16 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: true, // o false, dependiendo de si quieres que tus URLs terminen con una barra
 
   // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // useful metadata like html lang.
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+ 
 
   presets: [
     [
@@ -111,11 +113,5 @@ const config = {
     }),
 };
 
-export default config;
-module.exports = {
-  url: "https://gabimin.github.io", // URL base del sitio en GitHub Pages
-  baseUrl: "/my-website/", // Debe ser el nombre del repositorio
-  organizationName: "gabimin", // Tu nombre de usuario o de la organización en GitHub
-  projectName: "my-website", // El nombre del repositorio en GitHub
-  // ... otras configuraciones
-};
+  
+  (module.exports = config); // Asegúrate de exportar correctamente la configuración
